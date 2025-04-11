@@ -16,6 +16,7 @@ app.layout = html.Div([
     html.Div([
         # Logo (on the left)
         html.Img(src="/assets/moore-logo.svg", className="logo"),
+        html.Link(rel='icon', href='/assets/moore-logo.ico', type='image/x-icon'),
 
         # Page links (on the right)
         html.Div([
