@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: moore-bi
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:server

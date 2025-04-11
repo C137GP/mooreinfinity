@@ -1,0 +1,121 @@
+body {
+    background-color: #E3E4DB;
+    font-family: "Calibri Light", sans-serif;
+}
+
+.navigation-links {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+/* General layout for the header */
+.header {
+    display: flex;
+    align-items: center; /* Vertically center all items */
+    justify-content: space-between; /* Space between logo and menu */
+    width: 100%;
+    padding: 1em 2em; /* Add padding for spacing */
+    background-color: #E3E4DB; /* Light background for the header */
+    height: 7vh; /* Set height for the top bar */
+}
+
+/* Logo Styling */
+.logo {
+    width: 20vh; /* Adjust the logo width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+}
+
+/* Navigation Menu - horizontally aligned */
+.menu {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center;
+    width: auto; /* Adjust width based on your design */
+    padding-right: 5%;
+}
+
+/* Menu Item Styling */
+.menu-item {
+    all: unset;
+    cursor: pointer;
+    padding: 1em 2em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-left: 1em; /* Add spacing between links */
+}
+
+/* Hover effect for the menu items */
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Active effect for pressed menu items */
+.menu-item:active {
+    transform: scale(0.97);
+    box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer h4,
+.footer h5 {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    border-top: 2px solid #ccc; /* Subtle border for separation */
+}
+
+/* Footer Content */
+.footer-content {
+    max-width: 800px; /* Restrict max width for better readability */
+    margin: 0 auto;  /* Center the content */
+    padding: 10px;
+}
+
+/* Footer Title */
+.footer-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0074D9; /* Blue color for title */
+}
+
+/* Footer Subtitle */
+.footer-subtitle {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 5px 0;
+    color: #555; /* Lighter color for subtitles */
+}
+
+/* Footer Text */
+.footer-text {
+    font-size: 0.9em;
+    margin: 5px 0;
+    color: #555; /* Slightly lighter color for text */
+}
